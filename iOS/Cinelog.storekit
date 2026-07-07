@@ -1,0 +1,42 @@
+{
+  "identifier": "cinelog",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21500000",
+      "localizations": [],
+      "name": "Cinelog - Movie Diary Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "2.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "cinelog_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Yearly recap, rewatch tracking, export",
+              "displayName": "Cinelog - Movie Diary Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "cinelog_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Cinelog - Movie Diary Pro Monthly",
+          "subscriptionGroupID": "21500000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
