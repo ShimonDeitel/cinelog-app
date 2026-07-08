@@ -6,14 +6,12 @@ struct MovieEntry: Identifiable, Codable, Equatable {
     var title: String
     var rating: Int
     var notes: String
-    var notes: String
 
-    init(id: UUID = UUID(), date: Date = Date(), title: String = "", rating: Int = 0, notes: String = "", notes: String = "") {
+    init(id: UUID = UUID(), date: Date = Date(), title: String = "", rating: Int = 0, notes: String = "") {
         self.id = id
         self.date = date
         self.title = title
         self.rating = rating
-        self.notes = notes
         self.notes = notes
     }
 }
